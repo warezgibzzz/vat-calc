@@ -7,7 +7,6 @@
 actor: AcceptanceTester
 modules:
     enabled:
-        - WebDriver:
-            browser: chrome
+        - PhpBrowser:
             url: http://localhost:8000
         - \App\Tests\Helper\Acceptance
